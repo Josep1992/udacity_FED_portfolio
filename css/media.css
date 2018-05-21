@@ -1,0 +1,31 @@
+@media screen and (max-width: 550px) {
+  .navbar {
+    padding: 0.55em;
+  }
+
+  .fa-code {
+    font-size: 24px;
+  }
+  .navbar-title {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  nav {
+    padding: 0.25em;
+  }
+
+  .fa-code {
+    font-size: 20px;
+  }
+  .navbar-title {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .featured-work {
+    flex-wrap: wrap;
+  }
+}
